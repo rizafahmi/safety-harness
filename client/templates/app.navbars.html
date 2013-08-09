@@ -1,0 +1,54 @@
+
+<template name="navbarHeaderTemplate">
+    <div id="navBarHeader" class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
+        <!--<a id="appLogoLink" class="left clickable navbar-brand hidden-sm">-->
+            <!--<img id="appLogo" class="unselectable pentasyllabic-logo" src="pentasyllabic.logo.square.transparent.png">-->
+        <!--</a>-->
+        <div class="container">
+            <a id="navBarTitle" class="clickable unselectable navbar-brand">{{ getTitle }}</a>
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+            <!--<div class="nav-collapse collapse navbar-responsive-collapse">-->
+                <!--{{loginButtons align="right"}}-->
+            <!--</div>-->
+        </div>
+    </div>
+</template>
+
+
+<template name="navbarFooterTemplate">
+    <div id="navBarFooter" class="navbar navbar-inverse navbar-fixed-bottom bs-docs-nav">
+        <div class="container">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-footer-collapse">A</button>
+            <div class="nav-collapse collapse navbar-footer-collapse">
+                {{#if currentUser}}
+                <ul class="nav navbar-nav">
+                    <li class="view-button active"><a href="/customers">Vew</a></li>
+                    <li class="new-button"><a href="#">New</a></li>
+                    <li class="edit-button"><a href="#">Edit</a></li>
+                    <li class="delete-button"><a href="#">Delete</a></li>
+                </ul>
+                {{else}}
+                <ul class="nav navbar-nav">
+                    <li><a id="landingPageFooterLink" href="/">Home</a></li>
+                    <li><a id="qualityControlPageFooterLink" href="/tests">Quality Control</a></li>
+                    <li><a id="aboutUsPageFooterLink" href="/features">About</a></li>
+                    <!--<li><a id="featuresPageFooterLink" href="/features">Features</a></li>-->
+                    <!--<li><a id="registerPageFooterLink" href="/features">Register</a></li>-->
+                    <!--<li><a href="/signin">Sign In</a></li>-->
+                    <!--<li><a href="/loading">Loading</a></li>-->
+                    <!--<li><a href="/logout">Logout</a></li>-->
+                    <!--<li><a href="/notfound">Not Found</a></li>-->
+                    <!--<li><a id="eulaPageFooterLink" href="/eula">Terms of Use</a></li>-->
+                    <!--<li><a id="privacyPageFooterLink" href="/privacy">Privacy Policy</a></li>-->
+                    <!--<li><a href="/logs">System Logs</a></li>-->
+
+                </ul>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</template>

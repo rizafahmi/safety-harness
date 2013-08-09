@@ -1,0 +1,8 @@
+{
+    "name": "pageslide",
+    "description": "Meteorite package that pageslide functionality.",
+    "homepage": "https://github.com/awatson1978/pageslide",
+    "author": "Abigail Watson  (http://www.pentasyllabic.com)",
+    "version": "0.1.2",
+    "git": "https://github.com/awatson1978/pageslide.git"
+}

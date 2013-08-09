@@ -1,0 +1,10 @@
+<template name="appContainerTemplate">
+    {{> navbarHeaderTemplate }}
+    {{> sidebarPageTemplate }}
+    {{> navbarFooterTemplate }}
+
+    {{{yield}}}
+
+    <div class="hidden resize-trigger">resized: {{resized}}</div>
+</template>
+
