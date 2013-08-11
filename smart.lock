@@ -3,18 +3,8 @@
   "dependencies": {
     "basePackages": {
       "router": {},
-      "device-detection": {},
-      "datasets-customers": {
-        "git": "https://github.com/awatson1978/dataset-customers.git",
-        "branch": "master"
-      },
       "moment": {},
-      "mini-pages": {},
-      "roles": {},
-      "mocha-web": {},
       "keybindings": {},
-      "observatory": {},
-      "accounts-ui-bootstrap-dropdown": {},
       "fonts-pictographs": {}
     },
     "packages": {
@@ -23,50 +13,15 @@
         "tag": "v0.5.3",
         "commit": "7bd3a1bdd1099625bb8b49406d9b8f961d6f4a17"
       },
-      "device-detection": {
-        "git": "https://github.com/Mystor/meteor-device-detection.git",
-        "tag": "v0.1.3",
-        "commit": "8d865454f32f8ffe1a5281b6e9f9488b2c9bc142"
-      },
-      "datasets-customers": {
-        "git": "https://github.com/awatson1978/dataset-customers.git",
-        "branch": "master",
-        "commit": "016fea2b69c0bac021b021fa97441941c15dc4c4"
-      },
       "moment": {
         "git": "https://github.com/possibilities/meteor-moment.git",
         "tag": "v1.7.0",
         "commit": "c64b6ec0e714b9556f4b6643d430b868ba69d3d7"
       },
-      "mini-pages": {
-        "git": "https://github.com/cmather/meteor-mini-pages.git",
-        "tag": "v0.3.1",
-        "commit": "d218140d37b0dbec975880755c2035ae9e022936"
-      },
-      "roles": {
-        "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.0.5",
-        "commit": "a6e0ce33f8dc69a816165c458b138c2acb30ad0e"
-      },
-      "mocha-web": {
-        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
-        "tag": "v0.1.3",
-        "commit": "a2481d418a0f2a6cdc3536d40a3cef2ff1b5b13e"
-      },
       "keybindings": {
         "git": "https://github.com/matteodem/meteor-keybindings.git",
         "tag": "v0.3.8",
         "commit": "7102c7329453c18c63846d74d0b51ef35a23e945"
-      },
-      "observatory": {
-        "git": "https://github.com/jhoxray/observatory.git",
-        "tag": "v0.2.1",
-        "commit": "3a3302c086fc9e9c59adf9dfc01e88d746f6c501"
-      },
-      "accounts-ui-bootstrap-dropdown": {
-        "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
-        "tag": "v0.1.5",
-        "commit": "e12b128f140caa2797720cbd5fae084de7810c6a"
       },
       "fonts-pictographs": {
         "git": "https://github.com/awatson1978/fonts-pictographs.git",
@@ -77,16 +32,6 @@
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
         "tag": "v1.3.5",
         "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
-      },
-      "HTML5-History-API": {
-        "git": "https://github.com/tmeasday/meteor-HTML5-History-API.git",
-        "tag": "v4.0.0",
-        "commit": "dc4965f1424cfca625ec3fbea17eace03f8e32c5"
-      },
-      "observatory-apollo": {
-        "git": "https://github.com/superstringsoftware/observatory-apollo.git",
-        "branch": "master",
-        "commit": "b754bb265ef3df07a406f2b342a169e951e6caee"
       }
     }
   }

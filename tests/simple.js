@@ -6,7 +6,7 @@ var foo = 'bar';
 var beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
 
 
-describe('Hello World Unit Tests', function(){
+describe('Chai.js Unit Tests', function(){
     describe('lets confirm some chai assertions  work!  :)', function(){
         it('assert.typeOf', function(done){
             assert.typeOf(foo, 'string', 'foo is a string');
@@ -62,6 +62,66 @@ describe('Hello World Unit Tests', function(){
             done();
         });
     });
+});
+
+//var page = require('webpage').create();
+
+var serverResult = false;
+describe('PhantomJS Unit Tests', function(){
+
+    describe('lets try communicating with the server...  ', function(){
+        it('serverResult object is ready to receive result', function(done){
+            assert.equal(false, false);
+            done();
+        });
+        it('lets ping the server and see if we get a response...', function(done){
+            Meteor.call('pingTest', function (error, result){
+                assert.equal('pong', result);
+                done();
+            });
+        });
+        it('lets ping the server with an object...', function(done){
+            Meteor.call('pingTestWithObject', beverages, function (error, result){
+                assert.equal('received!', result);
+                done();
+            });
+        });
+        it('lets ping the server and see if it can return an object...', function(done){
+            Meteor.call('pingTestReturnsObject', function (error, result){
+                result.should.have.property('cider').with.length(3);
+                done();
+            });
+        });
+        it('lets try the round trip...', function(done){
+            Meteor.call('pingTestObjectRoundTrip', beverages, function (error, result){
+                result.should.have.property('cider').with.length(3);
+                result.should.have.property('tea').with.length(3);
+                done();
+            });
+        });
+    });
 
 
-})
+
+    describe('lets try firing up phantomJS...  :)', function(){
+        it('lets request the server to fire up a phantom instance...', function(done){
+            Meteor.call('initiatePhantom', beverages, function (error, result){
+                assert.equal('initiated!', result);
+                done();
+            });
+        });
+        it('lets request the server load up a website...', function(done){
+            Meteor.call('loadWebsite', beverages, function (error, result){
+                assert.equal('initiated!', result);
+                done();
+            });
+        });
+        it('can we evaluate the page?', function(done){
+            Meteor.call('evaluatePage', beverages, function (error, result){
+                result.should.have.property('tea').with.length(4);
+                done();
+            });
+        });
+    });
+});
+
