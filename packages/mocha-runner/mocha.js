@@ -3978,13 +3978,16 @@ Runnable.prototype.resetTimeout = function(){
 
 Runnable.prototype.run = function(fn){
   var self = this
-    , ms = this.timeout()
     , start = new Date
     , ctx = this.ctx
     , finished
     , emitted;
 
-  if (ctx) ctx.runnable(this);
+  //var ms = this.timeout()
+  var ms = 5000;
+
+
+    if (ctx) ctx.runnable(this);
 
   // timeout
   if (this.async) {

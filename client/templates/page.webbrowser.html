@@ -1,0 +1,19 @@
+<template name="mochaTestPage">
+    <div class="fullscreen">
+        <div class="col col-lg-3 fullheight helveticas">
+            <input id="urlAddressBar" type="text" class="" placeholder="http://www.somewhere.com" value="{{browser_window_location}}" />
+            <div class="padded">
+                {{> mochaTestReport }}
+            </div>
+        </div>
+        <div class="col col-lg-9 unpadded fullheight">
+            {{> webBrowserTemplate }}
+        </div>
+    </div>
+</template>
+
+<template name="webBrowserTemplate">
+    <iframe id="iFrameBrowser" type="text/html" class="fullheight" src="{{browser_window_location}}" width="100%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam libero libero, luctus at semper non, mattis id enim. Nulla pretium, diam eu porta dapibus, erat orci sodales mi, at porttitor nulla est vel metus. Maecenas condimentum nisi id tellus blandit porttitor. Aliquam lacinia elit nec elit condimentum gravida. Sed a lacus vitae tellus vulputate tristique. In auctor risus eu neque semper gravida. Cras vestibulum, sem posuere luctus tempor, dui ante aliquam ipsum, quis imperdiet ligula sapien in dui. Cras volutpat faucibus nibh eu commodo. Ut id sapien erat, sit amet fringilla odio. Maecenas quis dolor ligula. Aenean erat quam, volutpat sit amet fringilla quis, auctor eget ligula. Integer tincidunt dictum purus. Suspendisse potenti.</p>
+    </iframe>
+</template>

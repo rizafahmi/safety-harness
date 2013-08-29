@@ -2,7 +2,9 @@
     {{> navbarHeaderTemplate }}
     {{> navbarFooterTemplate }}
 
-    {{{yield}}}
+    {{#isolate}}
+    {{renderPage}}
+    {{/isolate}}
 
     <div class="hidden resize-trigger">resized: {{resized}}</div>
 </template>

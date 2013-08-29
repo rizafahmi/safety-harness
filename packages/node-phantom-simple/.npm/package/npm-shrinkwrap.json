@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-phantom-simple": {
+      "version": "1.0.10"
+    }
+  }
+}

@@ -20,26 +20,21 @@ Session.set('account_search_term', '');
 
 
 
-Meteor.pages({
-    '/': { to: 'userProfilePageTemplate', before: checkLoggedIn },
-    '/notfound': {to: 'notFound'},
-    '/signin': {to: 'signin'},
-    '/loading': {to: 'loading'},
-    '/logout': {to: 'logout'},
-    '/logs': {to: 'systemLogs'},
-    '/tests': { to: 'mochaTestPage' },
-    '/eula': { to: 'eulaPage' },
-    '/privacy': { to: 'privacyPage' },
-    '*': 'notFound'
-},{
-    defaults: {
-            layout: {to: 'userProfilePageTemplate', before: checkLoggedIn }
-    }
-});
 
-function checkLoggedIn(){
-    if(!Meteor.userId()){
-        this.template("landingPage");
-        this.done();
-    }
-}
+Router.map(function() {
+//    // TODO:  set access-control-allow-origin as our response header
+//    this.route('testsRoute', { path: '/tests', where: 'server'}, function(){
+//        this.response.setHeader('access-control-allow-origin', '*');
+//        var fs = Npm.require("fs");
+//        return fs.readFileSync("/public/page.mocha.html", "utf8");
+//    });
+
+//    TODO:  set access-control-allow-origin as our response header
+//    this.route('mochaTestPageClient', {path: '/tests', where: 'client', template: 'mochaTestPage'});
+
+    this.route('home_route', {path: '/', template: 'homePage'});
+    this.route('about_route', {path: '/about', template: 'aboutPage'});
+    this.route('tests_route', {path: '/tests', template: 'mochaTestPage'});
+    this.route('features_route', {path: '/features', template: 'featuresPage'});
+    this.route('default_route', {path: '*', template: 'mochaTestPage'});
+});

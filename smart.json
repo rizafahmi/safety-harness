@@ -1,8 +1,12 @@
 {
   "packages": {
-    "router": {},
-    "moment": {},
-    "keybindings": {},
-    "fonts-pictographs": {}
+    "iron-router": {
+      "git": "https://github.com/EventedMind/iron-router.git"
+    },
+    "phantomjs": {
+      "git": "https://github.com/gadicohen/meteor-phantomjs.git"
+    },
+    "font-awesome": {},
+    "bootstrap-3": {}
   }
 }
