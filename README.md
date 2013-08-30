@@ -29,5 +29,9 @@ Router.map(function () {
 9.  Now deploy your safety-harness using ``sudo mrt deploy my-todo-safety-harness.meteor.com``
 10.  Or to a Project B on Modulus with ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy``
 
-11.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.
-12.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)
+
+## Writing Tests
+
+1.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.
+2.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)
+3.  Add proxy Meteor.method functions to the ``server`` directory by copying and extending the ``methods.server.js`` file.
