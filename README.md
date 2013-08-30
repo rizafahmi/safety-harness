@@ -35,3 +35,13 @@ Router.map(function () {
 1.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.
 2.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)
 3.  Add proxy Meteor.method functions to the ``server`` directory by copying and extending the ``methods.server.js`` file.
+
+## Help Fix Bugs
+
+Accepting pull requests for the following items:
+
+1. anything that documents and improves the XmlHttpRequest same-origin workaround proxy
+2. need to add async futures to the ``proxy.methods.phantomjs.js`` file
+3. need to create a Deps.autorun singleton wrapper around the PhantomJS object
+4. need to be able to share a PhantomJS object between tests (i.e. proxy Meteor.method() calls)
+
