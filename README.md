@@ -1,4 +1,10 @@
-## Basic Installation
+### Disclaimer
+
+**NOTE:  Safety-Harness is 80% complete, and I've hit a wall.  
+What you see on http://safety-harness.meteor.com/ is what you get.**
+
+
+### Basic Installation
 
 **Get Your App Running**  
 1. Run the app you're building locally with ``sudo mrt``  
@@ -35,7 +41,7 @@ Router.map(function () {
 13.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)  
 14.  Add proxy Meteor.method functions to the ``server`` directory by copying and extending the ``methods.server.js`` file.  
 
-## Help Fix Bugs
+### Help Fix Bugs
 
 Accepting pull requests for the following items:
 
