@@ -1,16 +1,16 @@
-
 ## Basic Installation
 
 
-1.  Run the app you're building locally with ``sudo mrt`` 
+1.  Run the app you're building locally with ``sudo mrt``  
+
 2.  Or maybe deploy it using ``sudo mrt deploy my-todo-example.meteor.com``
-3.  Or maybe to Modulus with a ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy`` and choosing Project A.
+3.  Or maybe to Modulus with a ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy`` and choosing Project A.  
 
 4.  Clone the safety-harness repository.
-5.  Run safety-harness locally with ``sudo mrt`` 
-6.  Or run it on a separate port using ``sudo mrt -p 3200`` 
+5.  Run safety-harness locally with ``sudo mrt``
+6.  Or run it on a separate port using ``sudo mrt -p 3200``  
 
-7.  Maybe update the ``browser_window_location`` in the file ``main.js``?
+7.  Maybe update the ``browser_window_location`` in the file ``main.js``?  
 
 8.  Add XmlHttpRequest access control headers to your router in the app you're testing?
 ````js
