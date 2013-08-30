@@ -44,4 +44,6 @@ Accepting pull requests for the following items:
 2. need to add async futures to the ``proxy.methods.phantomjs.js`` file
 3. need to create a Deps.autorun singleton wrapper around the PhantomJS object
 4. need to be able to share a PhantomJS object between tests (i.e. proxy Meteor.method() calls)
+5. actually want to un-package the ``packages/mocha-runner`` files, and bring them into the core app, if possible
+6. particularly with regard to having to specify test files by adding entries into ``packages/mocha-runner/package.js`` 
 
