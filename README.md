@@ -39,7 +39,8 @@ Router.map(function () {
 **Write Some Tests**  
 12.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.  
 13.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)  
-14.  Add proxy Meteor.method functions to the ``server`` directory by copying and extending the ``methods.server.js`` file.  
+14.  Extend the ``proxy.methods.phantomjs.js`` file.  
+14.  Or copy the ``proxy.methods.phantomjs.js`` file into a ``proxy.methods.myapp.js`` file.  
 
 ### Help Fix Bugs
 
