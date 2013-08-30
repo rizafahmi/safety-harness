@@ -21,7 +21,7 @@ describe('Chai.js Unit Tests', function(){
             done();
         });
         it('assert.lengthOf array', function(done){
-            assert.lengthOf(beverages.tea, 3, 'beverages has 3 types of tea');
+            assert.lengthOf(beverathe ges.tea, 3, 'beverages has 3 types of tea');
             done();
         });
     });

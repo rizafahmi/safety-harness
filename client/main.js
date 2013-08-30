@@ -18,6 +18,9 @@ Session.set('editing_web', false);
 
 Session.set('account_search_term', '');
 
+Session.setDefault('browser_window_location', 'http://todos.meteor.com');
+Session.setDefault('is_submitting_url', false);
+
 
 
 
