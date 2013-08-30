@@ -12,8 +12,7 @@ What you see on http://safety-harness.meteor.com/ is what you get.**
 3. Or maybe to Modulus with a ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy``.  
 
 **Update Your App So It Can Work With Safety Harness**  
-4. Set up A records and CNAME records in your DNS, as necessary.  
-5.  Add XmlHttpRequest access control headers to your router in the app you're testing?
+4.  Add XmlHttpRequest access control headers to your router in the app you're testing?
 ````js
 Router.map(function () {
   this.route('testRoute', {
@@ -26,20 +25,38 @@ Router.map(function () {
 ````
 
 **Get Safety-Harness Running**  
-6.  Clone the safety-harness repository.  
-7.  Run safety-harness locally with ``sudo mrt``  
-8.  Or run it on a separate port using ``sudo mrt -p 3200``  
-9.  Deploy your updated app again (now with access control headers!) using ``sudo mrt deploy my-todo-example.meteor.com``  
-10.  Or maybe to Modulus again with another ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy``. Note:  you will need to deploy Safety-Harness to a separate project and domain name.
+5.  Clone the safety-harness repository.  
+6.  Run safety-harness locally with ``sudo mrt``  
+7.  Or run it on a separate port using ``sudo mrt -p 3200``  
+8.  Deploy your updated app again (now with access control headers!) using ``sudo mrt deploy my-todo-example.meteor.com``  
+9.  Or maybe to Modulus again with another ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy``. Note:  you will need to deploy Safety-Harness to a separate project and domain name.
+
+**Update Your DNS To Allow Cross-Subdomain Scripting**  
+10. Set up A records and CNAME records in your DNS, as necessary.  
 
 **Configure Safety-Harness**  
 11.  Maybe update the ``browser_window_location`` in the file ``main.js``?  
 
 
+**Review Existing Tests**  
+12.  Once all that's set up, check out the following files, which should have everything you need to get started.
+````js
+// server side proxy functions
+server/proxy.methods.http.js
+server/proxy.methods.phantomjs.js
+
+// client side tests
+tests/tests.server.phantomjs.js
+tests/tests.server.http.js
+tests/tests.chai.http.js
+````
+
 **Write Some Tests**  
-12.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.  
-13.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)  
-14.  Add proxy Meteor.method functions to the ``server`` directory by copying and extending the ``methods.server.js`` file.  
+13.  Start writing tests by editing a file like ``tests\tests.examples.todos.js``.  
+14.  Or create your own file such as ``tests\tests.myapp.js``.  
+15.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  Need to fix this.)  
+16.  Extend the ``proxy.methods.phantomjs.js`` file.  
+17.  Or copy the ``proxy.methods.phantomjs.js`` file into a ``proxy.methods.myapp.js`` file.  
 
 ### Help Fix Bugs
 
