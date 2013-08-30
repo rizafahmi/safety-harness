@@ -37,15 +37,16 @@ Router.map(function () {
 
 
 **Review Existing Tests**  
-12.  Once all that's set up, check out the following files
+12.  Once all that's set up, check out the following files, which should have everything you need to get started.
 ````js
 // server side proxy functions
 server/proxy.methods.http.js
 server/proxy.methods.phantomjs.js
 
 // client side tests
-tests/server.phantomjs.js
-tests/server.http.js
+tests/tests.server.phantomjs.js
+tests/tests.server.http.js
+tests/tests.chai.http.js
 ````
 
 **Write Some Tests**  
