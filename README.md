@@ -55,7 +55,7 @@ tests/server.http.js
 16.  Extend the ``proxy.methods.phantomjs.js`` file.  
 17.  Or copy the ``proxy.methods.phantomjs.js`` file into a ``proxy.methods.myapp.js`` file.  
 
-**Rebrand Safety-Harness ?**  
+**Rebrand Safety-Harness**  
 13.  Go to town rebranding the app by fussing with ``templates/page.about.html``
 
 ### Help Fix Bugs
