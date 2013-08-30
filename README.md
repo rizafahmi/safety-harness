@@ -36,11 +36,27 @@ Router.map(function () {
 11.  Maybe update the ``browser_window_location`` in the file ``main.js``?  
 
 
+**Review Existing Tests**  
+12.  Once all that's set up, check out the following files
+````js
+// server side proxy functions
+server/proxy.methods.http.js
+server/proxy.methods.phantomjs.js
+
+// client side tests
+tests/server.phantomjs.js
+tests/server.http.js
+````
+
 **Write Some Tests**  
-12.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.  
-13.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)  
-14.  Extend the ``proxy.methods.phantomjs.js`` file.  
-14.  Or copy the ``proxy.methods.phantomjs.js`` file into a ``proxy.methods.myapp.js`` file.  
+13.  Start writing tests by editing a file like ``tests\tests.examples.todos.js``.  
+14.  Or create your own file such as ``tests\tests.myapp.js``.  
+15.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  Need to fix this.)  
+16.  Extend the ``proxy.methods.phantomjs.js`` file.  
+17.  Or copy the ``proxy.methods.phantomjs.js`` file into a ``proxy.methods.myapp.js`` file.  
+
+**Rebrand Safety-Harness ?**  
+13.  Go to town rebranding the app by fussing with ``templates/page.about.html``
 
 ### Help Fix Bugs
 
