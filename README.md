@@ -1,18 +1,12 @@
 ## Basic Installation
 
+**Get Your App Running**  
+1. Run the app you're building locally with ``sudo mrt``  
+2. Or maybe deploy it using ``sudo mrt deploy my-todo-example.meteor.com``.   
+3. Or maybe to Modulus with a ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy`` and choosing Project A.  
 
-1.  Run the app you're building locally with ``sudo mrt``  
-
-2.  Or maybe deploy it using ``sudo mrt deploy my-todo-example.meteor.com``
-3.  Or maybe to Modulus with a ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy`` and choosing Project A.  
-
-4.  Clone the safety-harness repository.
-5.  Run safety-harness locally with ``sudo mrt``
-6.  Or run it on a separate port using ``sudo mrt -p 3200``  
-
-7.  Maybe update the ``browser_window_location`` in the file ``main.js``?  
-
-8.  Add XmlHttpRequest access control headers to your router in the app you're testing?
+**Update Your App So It Can Work With Safety Harness**  
+4.  Add XmlHttpRequest access control headers to your router in the app you're testing?
 ````js
 Router.map(function () {
   this.route('testRoute', {
@@ -23,18 +17,22 @@ Router.map(function () {
   });
 });
 ````
-9.  Deploy your updated app again (now with access control headers!) using ``sudo mrt deploy my-todo-example.meteor.com``
-10.  Or maybe to Modulus again with another ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy`` to Project A.
 
-9.  Now deploy your safety-harness using ``sudo mrt deploy my-todo-safety-harness.meteor.com``
-10.  Or to a Project B on Modulus with ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy``
+**Get Safety-Harness Running**  
+5.  Clone the safety-harness repository.  
+6.  Run safety-harness locally with ``sudo mrt``  
+7.  Or run it on a separate port using ``sudo mrt -p 3200``  
 
+8.  Deploy your updated app again (now with access control headers!) using ``sudo mrt deploy my-todo-example.meteor.com``
+9.  Or maybe to Modulus again with another ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy`` to Project A.
 
-## Writing Tests
+**Configure Safety-Harness**  
+10.  Maybe update the ``browser_window_location`` in the file ``main.js``?  
 
-1.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.
-2.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)
-3.  Add proxy Meteor.method functions to the ``server`` directory by copying and extending the ``methods.server.js`` file.
+**Write Some Tests**  
+11.  Once all that's set up, start writing tests by editing a file like ``tests\tests.examples.todos.js``.
+12.  Add new files to the ``tests`` direction by editing ``packages\mocha-runner\package.js``.  (Yes, it's hacky.  It's the best I get working right now.)
+13.  Add proxy Meteor.method functions to the ``server`` directory by copying and extending the ``methods.server.js`` file.
 
 ## Help Fix Bugs
 
