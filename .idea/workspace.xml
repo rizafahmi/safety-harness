@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65aba037-3dce-4841-bd3f-f5c839cbd8f2" name="Default" comment="" />
+    <list default="true" id="65aba037-3dce-4841-bd3f-f5c839cbd8f2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/safety-harness.iml" afterPath="$PROJECT_DIR$/.idea/safety-harness.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/mocha-runner/package.js" afterPath="$PROJECT_DIR$/packages/mocha-runner/package.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/page.features.html" afterPath="$PROJECT_DIR$/client/templates/page.features.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tests.chai.js" afterPath="$PROJECT_DIR$/tests/tests.chai.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="meteor-testharness.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.html" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1376534255680" ignored="false" />
@@ -41,7 +51,7 @@
     <file path="/a.dummy" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1377727506386" ignored="false" />
     <file path="/meteor.methods.js" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1376944419371" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/server/meteor.methods.js" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1376937215399" ignored="false" />
-    <file path="/Dummy.txt" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1377646094827" ignored="false" />
+    <file path="/Dummy.txt" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1377891109229" ignored="false" />
     <file path="$PROJECT_DIR$/../mocha-phantomjs-original/test/mixed.html" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1376151016292" ignored="false" />
     <file path="$PROJECT_DIR$/../mocha-phantomjs-original/test/failing.html" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1376151016293" ignored="false" />
     <file path="$PROJECT_DIR$/../mocha-phantomjs-original/test/slow.html" changelist="65aba037-3dce-4841-bd3f-f5c839cbd8f2" time="1376151016293" ignored="false" />
@@ -412,10 +422,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.features.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.features.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/page.features.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.6042654">
+            <state line="49" column="33" selection-start="2019" selection-end="2019" vertical-scroll-proportion="136.25">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -423,10 +433,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/mocha-runner/package.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.38626608">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.chai.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/tests.chai.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="51" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="page.landing.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/page.landing.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="-13.8">
+            <state line="23" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="-0.6">
               <folding />
             </state>
           </provider>
@@ -439,10 +467,17 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/libraries/app.navbars.js" />
         <option value="$PROJECT_DIR$/client/templates/page.webbrowser.html" />
         <option value="$PROJECT_DIR$/client/templates/app.navbars.html" />
         <option value="$PROJECT_DIR$/client/templates/framework.landing.html" />
@@ -452,18 +487,19 @@
         <option value="$PROJECT_DIR$/tests/tests.examples.todos.js" />
         <option value="$PROJECT_DIR$/tests/tests.examples.parties.js" />
         <option value="$PROJECT_DIR$/tests/tests.examples.leaderboard.js" />
-        <option value="$PROJECT_DIR$/packages/mocha-runner/package.js" />
         <option value="$PROJECT_DIR$/tests/tests.examples.js" />
         <option value="$PROJECT_DIR$/client/templates/page.home.html" />
         <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/client/stylesheets/page.landing.less" />
         <option value="$PROJECT_DIR$/client/templates/page.features.html" />
+        <option value="$PROJECT_DIR$/tests/tests.chai.js" />
+        <option value="$PROJECT_DIR$/packages/mocha-runner/package.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1168" />
-    <option name="y" value="320" />
+    <option name="x" value="1169" />
+    <option name="y" value="195" />
     <option name="width" value="1356" />
     <option name="height" value="1080" />
   </component>
@@ -493,31 +529,32 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -527,39 +564,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -569,11 +578,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
+              <option name="myItemId" value="safety-harness" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -585,77 +594,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meteor-testharness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -664,8 +604,8 @@
     <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -735,12 +675,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1168" y="320" width="1356" height="1080" extended-state="0" />
+    <frame x="1169" y="195" width="1356" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292789" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23930983" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -751,6 +690,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292789" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -817,25 +757,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/tests.chai.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/methods.vonvo.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/page.features.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/methods.server.js">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/page.landing.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="6" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.6276824">
+        <state line="23" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -882,15 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/mocha-runner/package.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="106" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1377761437000" expanded="true" signature="-1:-1" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/tests.examples.todos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="46" selection-start="0" selection-end="976" vertical-scroll-proportion="0.0">
@@ -919,19 +843,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/page.landing.less">
+    <entry file="file://$PROJECT_DIR$/client/templates/page.features.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="-13.8">
+        <state line="49" column="33" selection-start="2019" selection-end="2019" vertical-scroll-proportion="136.25">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests.chai.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="51" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.features.html">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/page.landing.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.6042654">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="23" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/mocha-runner/package.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.38626608">
+          <folding />
         </state>
       </provider>
     </entry>

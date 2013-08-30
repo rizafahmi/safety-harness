@@ -20,13 +20,14 @@ Package.on_use(function (api, where) {
   api.add_files(["mochastub.js", "chai.js"], ["server"]);
   api.add_files(['mocha.js', "chai.js", "mocha.css", "preTest.js", "testRunner.js"], "client");
 
-  api.add_files(path.join('../../tests', 'tests.chai.js'));
-  api.add_files(path.join('../../tests', 'tests.server.js'));
 
+  api.add_files(path.join('../../tests', 'tests.chai.js'));
+  api.add_files(path.join('../../tests', 'tests.server.http.js'));
   api.add_files(path.join('../../tests', 'tests.examples.js'));
   api.add_files(path.join('../../tests', 'tests.examples.leaderboard.js'));
   api.add_files(path.join('../../tests', 'tests.examples.todos.js'));
   api.add_files(path.join('../../tests', 'tests.examples.parties.js'));
-  api.add_files(path.join('../../tests', 'tests.phantomjs.js'));
+  api.add_files(path.join('../../tests', 'tests.server.phantomjs.js'));
+
 
 ;})
