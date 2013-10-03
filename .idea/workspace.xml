@@ -2,53 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65aba037-3dce-4841-bd3f-f5c839cbd8f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.continuous.integration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.default.window.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.fullscreen.mode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.mini.runner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.regulatory.quality.assurance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/page.testrunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/page.tutorial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/libraries/page.tutorial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/stylesheets/page.tutorial.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/stylesheets/pages.legal.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphiconshalflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphiconshalflings-regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphiconshalflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphiconshalflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphiconshalflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/18030989-yellow-tiles-texture-seamless-vector-checkered-pattern-in-60s-style-fabric-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/2517179-949118-abstract-seamless-background-with-flowers-vector-illustration.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/3386921-evenly-scratched-brushed-metal-tiles-seamlessly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/Background-Aluminum1-1024x847.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/brushed-aluminium-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/brushedsteel3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/cotton-fabric-rough.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/fons-white-glow-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/fons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/illust.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/images.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/img-thing.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/texture_grain_200x200_v2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/tile-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/tiled-texture-twitter-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/tumblr_mbe5g8K7o01rirnzso1_400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/vrtyrdzvumv33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/placeholder-240x240.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/placeholder-512x512.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/templates/page.webbrowser.html" afterPath="$PROJECT_DIR$/client/templates/partial.webbrowser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pixelmator-diagram.pxm" afterPath="$PROJECT_DIR$/public/pixelmator-diagram.pxm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/app.layout.less" afterPath="$PROJECT_DIR$/client/stylesheets/app.layout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/app.navbars.html" afterPath="$PROJECT_DIR$/client/templates/app.navbars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/libraries/app.navbars.js" afterPath="$PROJECT_DIR$/client/libraries/app.navbars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/app.navbars.less" afterPath="$PROJECT_DIR$/client/stylesheets/app.navbars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/app.routing.html" afterPath="$PROJECT_DIR$/client/templates/app.routing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/page.about.html" afterPath="$PROJECT_DIR$/client/templates/page.about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/page.about.less" afterPath="$PROJECT_DIR$/client/stylesheets/page.about.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/page.features.html" afterPath="$PROJECT_DIR$/client/templates/page.features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/accordion.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/accordion.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/alerts.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/alerts.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/badges.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/badges.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/bootstrap.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/bootstrap.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/breadcrumbs.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/breadcrumbs.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/button-groups.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/button-groups.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/buttons.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/buttons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/carousel.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/carousel.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/close.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/close.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/code.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/code.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/component-animations.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/component-animations.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/dropdowns.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/dropdowns.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/forms.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/forms.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/glyphicons.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/glyphicons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/grid.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/grid.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/jumbotron.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/jumbotron.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/labels.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/labels.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/list-group.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/list-group.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/media.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/media.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/mixins.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/modals.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/modals.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/navbar.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/navbar.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/navs.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/navs.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/normalize.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/normalize.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/pager.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/pager.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/pagination.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/pagination.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/panels.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/panels.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/popovers.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/popovers.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/print.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/print.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/progress-bars.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/progress-bars.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/responsive-utilities.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/responsive-utilities.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/scaffolding.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/scaffolding.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/tables.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/tables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/thumbnails.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/thumbnails.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/tooltip.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/tooltip.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/type.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/type.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/utilities.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/utilities.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/variables.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/wells.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/syntax.custom.bootstrap.less" afterPath="$PROJECT_DIR$/client/stylesheets/syntax.custom.bootstrap.less" />
     </list>
     <ignored path="meteor-testharness.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -353,8 +346,8 @@
       <recent name="$PROJECT_DIR$/packages/node-phantom-simple" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/stylesheets" />
       <recent name="$PROJECT_DIR$/.scrap" />
+      <recent name="$PROJECT_DIR$/client/stylesheets" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/client/libraries" />
       <recent name="$PROJECT_DIR$/packages/node-phantom-simple" />
@@ -427,7 +420,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1142" y="31" width="1350" height="1248" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -441,7 +434,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1837037" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1837037" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
