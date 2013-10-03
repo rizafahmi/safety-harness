@@ -22,7 +22,14 @@ Session.setDefault('browser_window_location', 'http://todos.meteor.com');
 Session.setDefault('is_submitting_url', false);
 
 
-
+new ForkMe({
+  user: 'awatson1978',
+  repo: 'safety-harness',
+  ribbon: {
+    color: 'red',
+    position: 'right'
+  }
+});
 
 Router.map(function() {
 //    // TODO:  set access-control-allow-origin as our response header

@@ -7,6 +7,7 @@
       "git": "https://github.com/gadicohen/meteor-phantomjs.git"
     },
     "font-awesome": {},
-    "bootstrap-3": {}
+    "bootstrap-3": {},
+    "fork-me": {}
   }
 }
