@@ -38,6 +38,7 @@ Router.map(function() {
     this.route('home_route', {path: '/', template: 'homePage'});
     this.route('about_route', {path: '/about', template: 'aboutPage'});
     this.route('tests_route', {path: '/tests', template: 'mochaTestPage'});
+    this.route('tutorial_route', {path: '/tutorial', template: 'tutorialPage'});
     this.route('features_route', {path: '/features', template: 'featuresPage'});
     this.route('default_route', {path: '*', template: 'mochaTestPage'});
 });

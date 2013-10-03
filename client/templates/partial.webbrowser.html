@@ -1,16 +1,4 @@
-<template name="mochaTestPage">
-    <div class="fullscreen">
-        <div class="col col-lg-3 fullheight helveticas">
-            <input id="urlAddressBar" type="text" class="" placeholder="http://www.somewhere.com" value="{{browser_window_location}}" />
-            <div class="padded">
-                {{> mochaTestReport }}
-            </div>
-        </div>
-        <div class="col col-lg-9 unpadded fullheight">
-            {{> webBrowserTemplate }}
-        </div>
-    </div>
-</template>
+
 
 <template name="webBrowserTemplate">
     <iframe id="iFrameBrowser" type="text/html" class="fullheight" src="{{browser_window_location}}" width="100%">

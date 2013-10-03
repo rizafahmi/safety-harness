@@ -1,19 +1,21 @@
 
 <template name="navbarHeaderTemplate">
-    <div id="navBarHeader" class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
-        <!--<a id="appLogoLink" class="left clickable navbar-brand hidden-sm">-->
-            <!--<img id="appLogo" class="unselectable pentasyllabic-logo" src="pentasyllabic.logo.square.transparent.png">-->
-        <!--</a>-->
+    <nav id="navBarHeader" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-header-collapse">A</button>
+        <a class="clickable unselectable navbar-brand" href="{{ getLink }}">{{ getTitle }}</a>
+      </div>
 
-        <div class="fullwidth">
-            <div class="col col-lg-3 title-column">
-                <a id="navBarTitle" class="clickable unselectable navbar-brand">{{ getTitle }}</a>
-            </div>
-            <div class="col col-lg-9 search-column">
-            </div>
-        </div>
+      <div class="pull-right navbar-collapse navbar-header-collapse">
+        <ul class="nav navbar-nav">
+          <li><a id="featuresFooterLink" href="/features">Features</a></li>
+          <li><a id="tutorialFooterLink" href="/tutorial">Tutorial</a></li>
+          <li><a id="qualityControlPageFooterLink" href="/tests">Continuous Integration Environment</a></li>
+          <li><a id="aboutUsPageFooterLink" href="/about">About</a></li>
+        </ul>
+      </div>
 
-    </div>
+    </nav>
 </template>
 
 
@@ -21,12 +23,16 @@
     <div id="navBarFooter" class="navbar navbar-inverse navbar-fixed-bottom bs-docs-nav">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-footer-collapse">A</button>
         <div class="nav-collapse collapse navbar-footer-collapse">
-            <ul class="nav navbar-nav">
-                <li><a id="landingPageFooterLink" href="/">Home</a></li>
-                <li><a id="featuresFooterLink" href="/features">Features</a></li>
-                <li><a id="qualityControlPageFooterLink" href="/tests">Continuous Integration Environment</a></li>
-                <li><a id="aboutUsPageFooterLink" href="/about">About</a></li>
-            </ul>
+            <div class="btn btn-default timer-button">{{ getTimerButtonText }}</div>
+            {{#if isIntegrationActivated }}
+                <div class="1-minute btn {{getMinuteStyle1}}">1 minute</div>
+                <div class="5-minute btn {{getMinuteStyle5}}">5 minute</div>
+                <div class="15-minute btn {{getMinuteStyle15}}">15 minute</div>
+                <div class="30-minute btn {{getMinuteStyle30}}">30 minute</div>
+                <div class="60-minute btn {{getMinuteStyle60}}">60 minute</div>
+                <div class="240-minute btn {{getMinuteStyle240}}">240 minute</div>
+                <div class="1440-minute btn {{getMinuteStyle1440}}">1440 minute</div>
+            {{/if}}
             <div class="btn btn-info float-right sample">Get Title (CORS Test)</div>
         </div>
     </div>
