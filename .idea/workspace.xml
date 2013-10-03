@@ -2,46 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65aba037-3dce-4841-bd3f-f5c839cbd8f2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/accordion.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/accordion.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/alerts.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/alerts.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/badges.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/badges.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/bootstrap.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/bootstrap.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/breadcrumbs.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/breadcrumbs.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/button-groups.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/button-groups.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/buttons.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/buttons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/carousel.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/carousel.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/close.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/close.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/code.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/code.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/component-animations.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/component-animations.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/dropdowns.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/dropdowns.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/forms.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/forms.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/glyphicons.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/glyphicons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/grid.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/grid.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/jumbotron.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/jumbotron.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/labels.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/labels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/list-group.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/list-group.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/media.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/media.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/mixins.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/modals.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/modals.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/navbar.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/navbar.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/navs.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/navs.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/normalize.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/normalize.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/pager.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/pager.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/pagination.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/pagination.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/panels.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/panels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/popovers.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/popovers.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/print.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/print.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/progress-bars.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/progress-bars.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/responsive-utilities.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/responsive-utilities.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/scaffolding.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/scaffolding.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/tables.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/tables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/thumbnails.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/thumbnails.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/tooltip.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/tooltip.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/type.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/type.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/utilities.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/utilities.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/variables.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/stylesheets/bootstrap3/wells.less" afterPath="$PROJECT_DIR$/.scrap/bootstrap3/wells.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/syntax.custom.bootstrap.less" afterPath="$PROJECT_DIR$/client/stylesheets/syntax.custom.bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.chai.assertions.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.integrated.browser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.integration.controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/screenshot.regulatory.documentation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/screenshot.mini.runner.png" afterPath="$PROJECT_DIR$/public/images/screenshot.mini.runner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/app.navbars.html" afterPath="$PROJECT_DIR$/client/templates/app.navbars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/libraries/app.navbars.js" afterPath="$PROJECT_DIR$/client/libraries/app.navbars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/app.navbars.less" afterPath="$PROJECT_DIR$/client/stylesheets/app.navbars.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/page.about.html" afterPath="$PROJECT_DIR$/client/templates/page.about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/page.features.html" afterPath="$PROJECT_DIR$/client/templates/page.features.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/page.tutorial.html" afterPath="$PROJECT_DIR$/client/templates/page.tutorial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="meteor-testharness.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,22 +35,31 @@
     <favorites_list name="meteor-testharness" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.3555941">
       <split-first>
         <leaf>
-          <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/templates/app.navbars.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="58" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.7480916" vertical-offset="0" max-vertical-offset="616">
+                <state line="15" column="12" selection-start="879" selection-end="879" vertical-scroll-proportion="-9.130435" vertical-offset="0" max-vertical-offset="644">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.tutorial.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="page.tutorial.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/templates/page.tutorial.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="-9.166667" vertical-offset="20" max-vertical-offset="810">
+                <state line="30" column="38" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.4360465" vertical-offset="300" max-vertical-offset="1155">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.about.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/page.about.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="14" selection-start="247" selection-end="247" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="525">
                   <folding />
                 </state>
               </provider>
@@ -87,7 +68,16 @@
           <file leaf-file-name="page.home.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/templates/page.home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="43" selection-start="119" selection-end="1091" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="375">
+                <state line="19" column="9" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.navbars.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/stylesheets/app.navbars.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="-9.183674" vertical-offset="0" max-vertical-offset="660">
                   <folding />
                 </state>
               </provider>
@@ -97,10 +87,28 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="app.navbars.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="page.features.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/templates/page.features.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="24" selection-start="859" selection-end="859" vertical-scroll-proportion="0.41795665" vertical-offset="0" max-vertical-offset="6285">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.navbars.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/libraries/app.navbars.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="46" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.22140221" vertical-offset="675" max-vertical-offset="1995">
+                <state line="61" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="smart.json" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/smart.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
                   <folding />
                 </state>
               </provider>
@@ -134,14 +142,14 @@
         <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/client/stylesheets/page.about.less" />
         <option value="$PROJECT_DIR$/client/templates/page.about.html" />
-        <option value="$PROJECT_DIR$/client/stylesheets/app.navbars.less" />
         <option value="$PROJECT_DIR$/client/templates/app.routing.html" />
         <option value="$PROJECT_DIR$/client/templates/page.testrunner.html" />
         <option value="$PROJECT_DIR$/client/stylesheets/app.layout.less" />
-        <option value="$PROJECT_DIR$/client/templates/page.features.html" />
-        <option value="$PROJECT_DIR$/client/templates/page.tutorial.html" />
+        <option value="$PROJECT_DIR$/client/stylesheets/app.navbars.less" />
         <option value="$PROJECT_DIR$/client/templates/app.navbars.html" />
+        <option value="$PROJECT_DIR$/client/templates/page.tutorial.html" />
         <option value="$PROJECT_DIR$/client/libraries/app.navbars.js" />
+        <option value="$PROJECT_DIR$/client/templates/page.features.html" />
       </list>
     </option>
   </component>
@@ -346,9 +354,9 @@
       <recent name="$PROJECT_DIR$/packages/node-phantom-simple" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/.scrap" />
       <recent name="$PROJECT_DIR$/client/stylesheets" />
-      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/client/libraries" />
       <recent name="$PROJECT_DIR$/packages/node-phantom-simple" />
     </key>
@@ -420,10 +428,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1142" y="31" width="1350" height="1248" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62532526" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -434,12 +443,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1837037" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2659259" sideWeight="0.37467477" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292789" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -457,34 +465,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.navbars.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.layout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="33" selection-start="3211" selection-end="3211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.testrunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -541,30 +521,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.home.html">
+    <entry file="file://$PROJECT_DIR$/smart.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="119" selection-end="1091" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="375">
+        <state line="12" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.tutorial.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/page.home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="-9.166667" vertical-offset="20" max-vertical-offset="810">
+        <state line="19" column="9" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.navbars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="26" selection-start="447" selection-end="447" vertical-scroll-proportion="-9.183674" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/app.navbars.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="58" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.7480916" vertical-offset="0" max-vertical-offset="616">
+        <state line="15" column="12" selection-start="879" selection-end="879" vertical-scroll-proportion="-9.130435" vertical-offset="0" max-vertical-offset="644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/page.about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="247" selection-end="247" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/libraries/app.navbars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="46" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.22140221" vertical-offset="675" max-vertical-offset="1995">
+        <state line="61" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/page.features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="859" selection-end="859" vertical-scroll-proportion="0.41795665" vertical-offset="0" max-vertical-offset="6285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/page.tutorial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="38" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.4360465" vertical-offset="300" max-vertical-offset="1155">
           <folding />
         </state>
       </provider>

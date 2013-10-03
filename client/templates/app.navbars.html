@@ -6,7 +6,7 @@
         <a class="clickable unselectable navbar-brand" href="{{ getLink }}">{{ getTitle }}</a>
       </div>
 
-      <div class="pull-right navbar-collapse navbar-header-collapse">
+      <div class="collapse navbar-collapse navbar-header-collapse">
         <ul class="nav navbar-nav">
           <li><a id="featuresFooterLink" href="/features">Features</a></li>
           <li><a id="tutorialFooterLink" href="/tutorial">Tutorial</a></li>
@@ -22,7 +22,7 @@
 <template name="navbarFooterTemplate">
     <div id="navBarFooter" class="navbar navbar-inverse navbar-fixed-bottom bs-docs-nav">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-footer-collapse">A</button>
-        <div class="nav-collapse collapse navbar-footer-collapse">
+        <div class="nav-collapse navbar-footer-collapse with-left-padding">
             <div class="btn btn-default timer-button">{{ getTimerButtonText }}</div>
             {{#if isIntegrationActivated }}
                 <div class="1-minute btn {{getMinuteStyle1}}">1 minute</div>
@@ -32,6 +32,8 @@
                 <div class="60-minute btn {{getMinuteStyle60}}">60 minute</div>
                 <div class="240-minute btn {{getMinuteStyle240}}">240 minute</div>
                 <div class="1440-minute btn {{getMinuteStyle1440}}">1440 minute</div>
+                <div class="1440-minute btn btn-warning">{{ getRemainingTime }} seconds until integration</div>
+
             {{/if}}
             <div class="btn btn-info float-right sample">Get Title (CORS Test)</div>
         </div>
