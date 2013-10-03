@@ -69,3 +69,17 @@ Accepting pull requests for the following items:
 5. actually want to un-package the ``packages/mocha-runner`` files, and bring them into the core app, if possible
 6. particularly with regard to having to specify test files by adding entries into ``packages/mocha-runner/package.js`` 
 
+
+------------------------
+### License
+
+MIT License. Use as you wish, including for commercial purposes.  
+See license.mit.txt for full details.  
+
+------------------------
+### Support
+Found this package to be useful?  Consider tipping the package maintainer for their time!  
+
+[![Support via Gittip](https://raw.github.com/gittip/www.gittip.com/master/www/assets/gittip.png)](https://www.gittip.com/awatson1978/)  
+
+
