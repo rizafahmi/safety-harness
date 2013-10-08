@@ -78,8 +78,7 @@ Accepting pull requests for the following items:
 ------------------------
 ### License
 
-MIT License. Use as you wish, including for commercial purposes.  
-See license.mit.txt for full details.  
+MIT License. Use as you wish, including for commercial purposes.
 
 ------------------------
 ### Support
