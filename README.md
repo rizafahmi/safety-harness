@@ -1,6 +1,6 @@
 ### Disclaimer
 
-**NOTE:  Safety-Harness is 85% complete, and I've hit a wall.  
+**NOTE:  Safety-Harness is 85% complete, and am taking a break.  
 What you see on http://safety-harness.meteor.com/ is what you get.**
 
 
