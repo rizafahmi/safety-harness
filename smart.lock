@@ -12,13 +12,16 @@
       },
       "font-awesome": {},
       "bootstrap-3": {},
-      "fork-me": {}
+      "fork-me": {
+        "git": "https://github.com/awatson1978/meteor-fork-me.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
         "branch": "master",
-        "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
+        "commit": "1d64b343d34405d14cfc79a0518878c5c37b5ee2"
       },
       "phantomjs": {
         "git": "https://github.com/gadicohen/meteor-phantomjs.git",
@@ -36,9 +39,9 @@
         "commit": "47996f67f3987c9f82117394effcbe1586a4fe29"
       },
       "fork-me": {
-        "git": "https://github.com/possibilities/meteor-fork-me.git",
-        "tag": "v0.0.2",
-        "commit": "7a0e4043d482d157a5b5dc9eee69160d759d506e"
+        "git": "https://github.com/awatson1978/meteor-fork-me.git",
+        "branch": "master",
+        "commit": "dff960ce3e47ad6619787801bcc4888c6b0d3bea"
       }
     }
   }

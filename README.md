@@ -17,7 +17,8 @@ Note:  Continous integration is currently set to run on page load and code hot-r
 3. Or maybe to Modulus with a ``sudo demeteorizer; cd .demoeteorized; sudo modulus deploy``.  
 
 **Update Your App So It Can Work With Safety Harness**  
-4.  Add XmlHttpRequest access control headers to your router in the app you're testing?
+4a.  Add iron-router package with ``sudo mrt add iron-router``
+4b.  Add XmlHttpRequest access control headers to your router in the app you're testing?
 ````js
 Router.map(function () {
   this.route('testRoute', {
