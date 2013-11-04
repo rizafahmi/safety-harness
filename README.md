@@ -6,7 +6,7 @@ What you see on http://safety-harness.meteor.com/ is what you get.**
 
 ### Status Update
 
-Note:  Continous integration is currently set to run on page load and code hot-reload.  That means the continous integration currently is event-driven.  There are new controls at the bottom of the application that allow you to set an integration interval.  This feature is only half-implemented.  The interval control works just fine.  It's just that the test runner hasn't been abstracted so that it has an API hook to call at the interval.  So, in the meantime, I just put an alert.  Bottom line.... the continuous integration buttons don't do anything except create a timer that counts down and displays a popup alert.  And the test-runner is still tied to the page onload event.  (But the test will run on LiveEdit, so it totally works for continous integtation, if you want.)
+Note:  Continous integration is currently set to run on page load, code hot-reload, and on file-save.  That means the continous integration currently is event-driven.  There are new controls at the bottom of the application that allow you to set an integration interval.  This feature is only half-implemented.  The interval control works just fine.  It's just that the test runner hasn't been abstracted so that it has an API hook to call at the interval.  So, in the meantime, I just put an alert.  Bottom line.... the continuous integration buttons don't do anything except create a timer that counts down and displays a popup alert.  And the test-runner is still tied to the page onload event.  (But the test will run on LiveEdit, so it totally works for continous integtation, if you want.)
 
 
 ### Basic Installation
