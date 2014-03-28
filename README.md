@@ -1,15 +1,18 @@
 ### Disclaimer
 
-**NOTE:  Safety-Harness is 85% complete, and am taking a break.  
-What you see on http://safety-harness.meteor.com/ is what you get.**
+**NOTE:  For the latest stable version, see the [Testrunner-Helloworld](https://github.com/awatson1978/testrunner-helloworld) repository.
 
 
 ### Status Update
 
-Note:  Continous integration is currently set to run on page load, code hot-reload, and on file-save.  That means the continous integration currently is event-driven.  There are new controls at the bottom of the application that allow you to set an integration interval.  This feature is only half-implemented.  The interval control works just fine.  It's just that the test runner hasn't been abstracted so that it has an API hook to call at the interval.  So, in the meantime, I just put an alert.  Bottom line.... the continuous integration buttons don't do anything except create a timer that counts down and displays a popup alert.  And the test-runner is still tied to the page onload event.  (But the test will run on LiveEdit, so it totally works for continous integtation, if you want.)
+Safety-Harness got 85% complete, and then hit a wall with regards to two issues:  client side CORS security and implementation of the PhantomJS bridge.  I've recently managed to figure out a workable approach to running Mocha Tests on an site embedded in an iFrame, which is documented in the Testrunner Helloworld repository.  As I get time, Testrunner will be merged back into Saftey Harness.  Also, you may want to check out the REST API Testrunner in action:
+
+[REST API](http://rest-api.meteor.com/)  
+[REST API Testrunner](http://rest-api-testrunner.meteor.com/)    
 
 
-### Basic Installation
+
+### Basic Installation (Semi-Deprecated)
 
 **Get Your App Running**  
 1. Run the app you're building locally with ``sudo mrt``  
