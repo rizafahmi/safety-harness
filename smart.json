@@ -1,8 +1,6 @@
 {
   "packages": {
-    "iron-router": {
-      "git": "https://github.com/EventedMind/iron-router.git"
-    },
+    "iron-router": {},
     "phantomjs": {
       "git": "https://github.com/gadicohen/meteor-phantomjs.git"
     },

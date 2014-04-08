@@ -1,3 +1,61 @@
+//
+// var Future = Npm.require("fibers/future");
+// //var phantomjs = Npm.require('node-phantom-simple');
+// //var phantomjs = Npm.require('phantomjs');
+//
+//
+// var phantomjs = Npm.require('node-phantom-simple');
+// var path = Npm.require('path');
+//
+// process.env.PATH += ':' + path.dirname(phantomjs.path);
+//
+//
+// var persistantPhantom = null;
+//
+// //var phantomjs = null;
+// //var future = new Future;
+// if (phantomjs) {
+//   phantomjs.create(function(err, phantom) {
+//
+//
+//
+//     }
+//   });
+// }
+// // console.log('waiting for future to resolve...');
+// // return future.wait();
+//
+// runPhantomTest = function(phantom, testObject){
+//   if(phantom){
+//     phantom.createPage(function(err, page) {
+//       page.open(testObject.websiteUrl, function(err, status) {
+//         console.log('status: ' + status);
+//         page.includeJs('http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', function(err) {
+//           return setTimeout(function() {
+//             var result = page.evaluate(function() {
+//               console.log(arguments)
+//               //Get what you want from the page using jQuery. A good way is to populate an object with all the jQuery commands that you need and then return the object.
+//               return document[testObject.element];
+//             }, function(err, result) {
+//               if (err) {
+//                 console.log('err: ' + err);
+//                 backgroundColorResult = "error" + err;
+//               } else if (result) {
+//                 console.log('result: ' + result);
+//                 backgroundColorResult = result;
+//                 future.ret(result);
+//               } else {
+//                 console.log('neither err nor result, apparently');
+//               }
+//               phantom.exit();
+//             });
+//           }, 3000);
+//         });
+//       });
+//     });
+// }
+
+
 
 
 Meteor.methods({
@@ -19,6 +77,19 @@ Meteor.methods({
     },
     confirmTitle: function (options) {
         try{
+
+            // var testObject = {
+            //   websiteUrl: websiteUrl,
+            //   element: "body",
+            //   property: 'bgColor'
+            // };
+            //
+            //
+            // if(persistantPhantom){
+            //   runPhantomTest(persistantPhantom, testObject);
+            // }
+            //PhantomBrowser.open(websiteUrl);
+
             this.unblock();
 
             var result = Meteor.http.call("GET", "http://staging.vonvo.com");
@@ -145,7 +216,3 @@ Meteor.methods({
 //        }
 //    }
 //});
-
-
-
-

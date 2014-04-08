@@ -2,10 +2,7 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "iron-router": {
-        "git": "https://github.com/EventedMind/iron-router.git",
-        "branch": "master"
-      },
+      "iron-router": {},
       "phantomjs": {
         "git": "https://github.com/gadicohen/meteor-phantomjs.git",
         "branch": "master"
@@ -20,8 +17,8 @@
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "branch": "master",
-        "commit": "1d64b343d34405d14cfc79a0518878c5c37b5ee2"
+        "tag": "v0.7.0",
+        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
       },
       "phantomjs": {
         "git": "https://github.com/gadicohen/meteor-phantomjs.git",
@@ -30,18 +27,23 @@
       },
       "font-awesome": {
         "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
-        "tag": "v3.2.1",
-        "commit": "38bdfff72dfb8857b272f9a9b056045d6a015489"
+        "tag": "v4.0.3",
+        "commit": "61e9361384347547ae144f8228faa4deffda23db"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v0.3.5",
-        "commit": "47996f67f3987c9f82117394effcbe1586a4fe29"
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
       },
       "fork-me": {
         "git": "https://github.com/awatson1978/meteor-fork-me.git",
         "branch": "master",
-        "commit": "dff960ce3e47ad6619787801bcc4888c6b0d3bea"
+        "commit": "ad7c0f1d52a7001e621a5b0a5a7955ce4b5bd837"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.2",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
       }
     }
   }
