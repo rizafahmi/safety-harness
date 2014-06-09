@@ -1,10 +1,17 @@
-### Disclaimer
-
-**NOTE:  For the latest stable version, see the [Testrunner-Helloworld](https://github.com/awatson1978/testrunner-helloworld) repository.
+safety-harness
 
 
 ### Status Update
 
+**June, 2014**  
+We no longer recommend using the Safety Harness application, and recommend using the
+[https://github.com/awatson1978/selenium-nightwatch](selenium-nightwatch) package for acceptance testing.  Selenium-Nightwatch is going to get merged into both Safety Harness and Velocity.  
+
+**February, 2014**  
+For the latest stable version, see the [Testrunner-Helloworld](https://github.com/awatson1978/testrunner-helloworld) repository.
+
+
+**February, 2014**  
 Safety-Harness got 85% complete, and then hit a wall with regards to two issues:  client side CORS security and implementation of the PhantomJS bridge.  I've recently managed to figure out a workable approach to running Mocha Tests on an site embedded in an iFrame, which is documented in the Testrunner Helloworld repository.  As I get time, Testrunner will be merged back into Saftey Harness.  Also, you may want to check out the REST API Testrunner in action:
 
 [REST API](http://rest-api.meteor.com/)  
